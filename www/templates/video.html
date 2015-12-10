@@ -1,0 +1,14 @@
+<ion-view view-title="Video" ng-init="open_video()">
+  <ion-content class="padding"  overflow-scroll="true">
+    
+    <div class="card" >
+    		
+	 	 <video controls style="width:100%"> 
+	 	 	<source ng-src="{{trustSrc(video_one.source)}}" type="video/mp4"/>
+	 	 </video>
+	 	
+	 	 <!-- <iframe src="" dynamic-url dynamic-url-src="{{video.source}}" frameborder="0" width="100%"  controls autoplay=0 ></iframe> -->
+	</div>
+
+  </ion-content>
+</ion-view>

@@ -1,0 +1,37 @@
+<ion-view view-title="Video">
+  <ion-content class="padding"  overflow-scroll="true">
+    
+    <div ng-controller="myCtrl as controller">
+		<videogular 
+				vg-player-ready="controller.onPlayerReady($API)"
+				vg-theme="controller.config.theme" 
+				vg-player-ready="onPlayerReady($API)" 
+				vg-loop="controller.config.loop" 
+				vg-complete="controller.onCompleteVideo()"
+				vg-auto-play="true">
+			<vg-media vg-src="controller.config.sources" >
+			</vg-media>
+ 
+			<vg-controls vg-autohide="{boolean:true}">
+				<vg-play-pause-button></vg-play-pause-button>
+				<!-- <vg-time-display>{{ currentTime | date:'mm:ss' }}</vg-time-display> -->
+				<vg-scrub-bar>
+					<vg-scrub-bar-current-time></vg-scrub-bar-current-time>
+				</vg-scrub-bar>
+				<!-- <vg-time-display>{{ timeLeft | date:'mm:ss' }}</vg-time-display> -->
+				<vg-volume>
+					<vg-mute-button></vg-mute-button>
+					<vg-volume-bar></vg-volume-bar>
+				</vg-volume>
+
+				<vg-fullscreen-button></vg-fullscreen-button>
+			</vg-controls>
+ 
+			<vg-overlay-play></vg-overlay-play>
+			<vg-poster vg-url='controller.config.plugins.poster'></vg-poster>
+		</videogular>
+		
+	</div>
+
+  </ion-content>
+</ion-view>

@@ -1,0 +1,36 @@
+{
+  "name": "videogular-themes-default",
+  "version": "1.4.0",
+  "main": "videogular.css",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-release": "~0.7.0"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "gitHead": "398b9c74c59ec220e85f6e06c0e1bff055a4da17",
+  "description": "bower-videogular-themes-default ===============================",
+  "_id": "videogular-themes-default@1.4.0",
+  "scripts": {},
+  "_shasum": "a979295d8b75e4145d5092257994fe426d187be1",
+  "_from": "videogular-themes-default@*",
+  "_npmVersion": "3.3.9",
+  "_nodeVersion": "4.2.2",
+  "_npmUser": {
+    "name": "elecash",
+    "email": "elecash@gmail.com"
+  },
+  "dist": {
+    "shasum": "a979295d8b75e4145d5092257994fe426d187be1",
+    "tarball": "http://registry.npmjs.org/videogular-themes-default/-/videogular-themes-default-1.4.0.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "elecash",
+      "email": "elecash@gmail.com"
+    }
+  ],
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/videogular-themes-default/-/videogular-themes-default-1.4.0.tgz"
+}
